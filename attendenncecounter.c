@@ -30,6 +30,6 @@ else
     percentage=(present*100.0)/n;
     printf("the total perecentage of absent student:%d\n",absent);
     printf("the total perecentage of present student:%d\n",present);
-    printf("attendence percentage:%d",present);
+    printf("attendence percentage:%.2f",percentage);
     return 0;
 }
